@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/button_style"
+
+    tools:context=".PercentageCalculator">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discount Calculator"
+        android:fontFamily="@font/arlrndfont"
+        android:textColor="#ffff"
+        android:layout_marginBottom="10dp"
+        android:textSize="35sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arlrndfont"
+            android:text="Orginal Price:"
+            android:textSize="30sp"
+            android:textColor="#ffff"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/taka"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:inputType="numberDecimal"
+            android:background="#ffff"
+            android:textColor="#FFC44C4C"
+            android:textSize="25sp"
+            android:hint="TK"
+            android:fontFamily="@font/arlrndfont"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            >
+
+        </EditText>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="0dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arlrndfont"
+            android:text="Discount(%):"
+            android:textSize="30sp"
+            android:textColor="#ffff"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/discount"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="25dp"
+            android:background="#ffff"
+            android:gravity="center"
+            android:hint="DIS"
+            android:textColor="#FFC44C4C"
+            android:fontFamily="@font/arlrndfont"
+            android:inputType="numberDecimal"
+            android:textSize="25sp">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btncal"
+        android:layout_width="183dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/calculate"
+        android:fontFamily="@font/arlrndfont"
+        android:backgroundTint="#C44C4C"
+        android:textColor="#E9B7B3"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </Button>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:layout_marginBottom="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arlrndfont"
+            android:text="Final Price:"
+            android:textSize="30sp"
+            android:textColor="#ffff"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="40dp"
+            android:background="#ffff"
+            android:gravity="center"
+            android:hint="Price"
+            android:textColor="#FFC44C4C"
+            android:fontFamily="@font/arlrndfont"
+            android:inputType="numberDecimal"
+            android:textSize="25sp">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arlrndfont"
+            android:text="Discount Tk:"
+            android:textSize="30sp"
+            android:textColor="#ffff"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/tk"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="17dp"
+            android:background="#ffff"
+            android:gravity="center"
+            android:textColor="#FFC44C4C"
+            android:hint="TK"
+            android:fontFamily="@font/arlrndfont"
+            android:inputType="numberDecimal"
+            android:textSize="25sp">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/arlrndfont"
+        android:backgroundTint="#C44C4C"
+        android:textColor="#E9B7B3"
+        android:layout_marginTop="10dp"
+        android:text="@string/reset"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonback2"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="back"
+        android:backgroundTint="#ff5050"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+</LinearLayout>

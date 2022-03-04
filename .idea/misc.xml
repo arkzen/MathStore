@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/drawable/background2_style.xml" value="0.2203125" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/drawable/background3_style.xml" value="0.2203125" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/drawable/background4_style.xml" value="0.2203125" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/drawable/background_style.xml" value="0.2203125" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/drawable/button_style.xml" value="0.2203125" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/drawable/cal_butt_bg.xml" value="0.2203125" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/drawable/calculator_bg.xml" value="0.67" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/drawable/custombutton.xml" value="0.2203125" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/drawable/fsc_calc_bg.xml" value="0.2203125" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/drawable/mainbutton_style.xml" value="0.2203125" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout-v21/activity_bmi_calculator.xml" value="0.21" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout-v21/activity_main.xml" value="0.1082427536231884" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_bmi_calculator.xml" value="0.25" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_calculation_formula.xml" value="0.22" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_calculator.xml" value="0.25" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_cgpacalculator.xml" value="0.25" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_circle.xml" value="0.25" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_formula.xml" value="0.25" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_mathformula.xml" value="0.12" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_percentage_calculator.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_physicsformula.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_rectangle.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_scientific_calculator.xml" value="0.22" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_semester1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_semester2.xml" value="0.21" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_semester3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_semester4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_semester5.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_semester6.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_semester7.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_semester8.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_square.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/activity_triangle.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/MathstoreProject/app/src/main/res/layout/dash_border_button.xml" value="0.1082427536231884" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/fsc_calc_bg"
+    tools:context=".ScientificCalculator">
+
+
+
+    <TextView
+        android:id="@+id/tvsec"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#23252c"
+        android:text=""
+        android:fontFamily="@font/arlrndfont"
+        android:textColor="#eeeeef"
+        android:textSize="30sp"
+        android:textAlignment="viewEnd"
+        android:padding="10dp"
+        android:gravity="bottom"
+        android:maxLines="1"
+        android:layout_weight="1"
+        tools:ignore="RtlCompat">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tvmain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#23252c"
+        android:gravity="bottom"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:text=""
+        android:textAlignment="viewEnd"
+        android:fontFamily="@font/arlrndfont"
+        android:textColor="#eeeeef"
+        android:textSize="50sp"
+        tools:ignore="RtlCompat"></TextView>
+
+    <LinearLayout
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:layout_marginBottom="0dp"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/calculator_bg"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:weightSum="7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#26f0cb"
+                        android:id="@+id/bac"
+                        android:text="Ac"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#26f0cb"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bc"
+                        android:text="C"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#26f0cb"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bb1"
+                        android:text="("
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#26f0cb"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bb2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=")"
+                        android:textSize="30sp"/>
+
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#26f0cb"
+                        android:layout_margin="5dp"
+                        android:id="@+id/backman"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="back"
+                        android:textSize="16dp"/>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#26f0cb"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bsin"
+                        android:text="sin"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#26f0cb"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bcos"
+                        android:text="cos"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#26f0cb"
+                        android:layout_margin="5dp"
+                        android:id="@+id/btan"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="tan"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"/>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#26f0cb"
+                        android:layout_margin="5dp"
+                        android:id="@+id/blog"
+                        android:text="log"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#26f0cb"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bln"
+                        android:text="ln"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bfact"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="x!"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"/>
+
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bsquare"
+                        android:text="x2 "
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bsqrt"
+                        android:text="√"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/binv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1/x"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"/>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#c85c5d"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bdiv"
+                        android:text="÷"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/b7"
+                        android:text="7"
+                        android:textAllCaps="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="30sp"/>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/b8"
+                        android:text="8"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/b9"
+                        android:text="9"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#c85c5d"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bmul"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="×"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"/>
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/b4"
+                        android:text="4"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/b5"
+                        android:text="5"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/b6"
+                        android:text="6"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#c85c5d"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bmin"
+                        android:text="-"
+                        android:textAllCaps="false"
+                        android:textSize="50dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/b1"
+                        android:text="1"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/b2"
+                        android:text="2"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/b3"
+                        android:text="3"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#c85c5d"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bplus"
+                        android:text="+"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bpi"
+                        android:text="π"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/b0"
+                        android:text="0"
+                        android:textAllCaps="false"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#eeeeef"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bdot"
+                        android:text="."
+                        android:textAllCaps="false"
+                        android:layout_gravity="center"
+                        android:textSize="30sp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/cal_butt_bg"
+                        android:fontFamily="@font/arlrndfont"
+                        android:textColor="#c85c5d"
+                        android:layout_margin="5dp"
+                        android:id="@+id/bequal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="="
+                        android:textAllCaps="false"
+                        android:textSize="30sp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>
+

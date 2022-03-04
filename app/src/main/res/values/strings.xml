@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Mathstore Project</string>
+    <string name="btnres">result</string>
+    <string name="result">result</string>
+    <string name="btnreset">reset</string>
+    <string name="reset">reset</string>
+    <string name="calculate">calculate</string>
+    <string name="button_no1"></string>
+
+
+     <string name="math_formula">
+         \n
+1.  (a + b)2 = a2 + 2ab + b2\n
+2.  (a − b)2 = a2 − 2ab + b2\n
+3.  a2 + b2 = (a + b)2 − 2ab\n
+4.  a2 + b2 = (a − b)2 + 2ab\n
+5.  (a + b + c)2 = a2 + b2 + c2 +    2(ab + bc + ca)\n
+6.  (a + b)3 = a3 + b3 + 3ab(a + b)\n
+7.  (a − b)3 = a3 − b3 − 3ab(a − b)\n
+8.  a3 + b3 = (a + b)3 − 3ab(a + b)\n
+9.  a3 − b3 = (a − b)3 + 3ab(a − b)\n
+10. a2 − b2 = (a + b)(a − b)\n
+11. a3 − b3 = (a − b)(a2 + ab + b2)\n
+12. a3 + b3 = (a + b)(a2 − ab + b2\n
+13. a^m.a^n = a^(m+n)\n
+14. am/an = a^(m−n)\n
+15. (am)n = amn = (an)m\n
+16. (ab)n = an.bn\n
+17. (a/b)^n = a^n/b^n\n
+18. a0 = 1\n
+19. a^(−n) = 1^an\n
+20. a^n = 1/a^(−n)\n
+21. a^(p/q) = q√ap
+
+
+     </string>
+
+    <string name="physics_formula">
+\n
+   1.S = d/t\n
+2.a =(v−u)/t\n
+3.v = ∆s/∆t\n
+4.v = ds/dt\n
+5.a = ∆v/∆t\n
+6.a =dv/dt\n
+7.v = v0 + at\n
+8.s = s0 + v0t + ½at2\n
+9.v2 = v02 + 2a(s − s0)\n
+10.v = ½(v + v0)\n
+11.∑F = ma\n
+12.∑F = dp/dt\n
+13.W = mg\n
+14.p = mv\n
+15.ac = v2/r\n
+16.ac = w2r
+17.W = F∆s cos θ\n
+18.W = F∆s cos θ\n
+19.F∆s cos θ = ∆E\n
+20.W = F∆s cos θ\n
+21.K = ½mv2\n
+22.K = p2/2m\n
+23.τ = rF sin θ\n
+24.τ = r × F\n
+25.I = ∑mr2\n
+26.Fg = Gm1m2/r2\n
+27.g= Gm/r2\n
+28.Vg =Gm/r\n
+29.T=2π√(ℓ/g)\n
+30.f=1/T\n
+31.ω = 2πf\n
+32.ρ = m/V\n
+33.P=F/A\n
+34.P = P0 + ρgh\n
+35.A1v1 = A2v2\n
+36.∆ℓ = αℓ0∆T\n
+37.∆A = 2αA0∆T\n
+38.∆V = 3αV0∆T\n
+39.∆V = βV0∆T\n
+40.Q = mc∆T\n
+41.PV = nRT\n
+42.P=∆Q/∆t\n
+43.P=dQ/dt\n
+44.v = fλ\n
+45.f(x,t) = A sin(2π(ft − x/λ) + φ)\n
+46.f=1/T\n
+47.F=k(q1q2/r2)\n
+48.F=(1/4πε0)x(q1q2/r2)\n
+49.E=Fe/q\n
+
+
+
+
+    </string>
+
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+   android:background="@drawable/background3_style"
+    tools:context=".Rectangle">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculation Rectangle"
+        android:fontFamily="@font/arlrndfont"
+        android:textColor="#272e27"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="50dp"
+        android:textSize="35sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lenght :"
+            android:textSize="30sp"
+            android:fontFamily="@font/arlrndfont"
+            android:textColor="#272e27"
+            />
+
+        <EditText
+            android:id="@+id/lenght"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:inputType="numberDecimal"
+            android:background="#ffff"
+            android:fontFamily="@font/arlrndfont"
+            android:textColor="#736D6D"
+            android:textSize="25sp"
+            android:hint="lenght"
+            android:gravity="center"
+            android:layout_marginLeft="80dp"
+            >
+
+        </EditText>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arlrndfont"
+            android:textColor="#272e27"
+            android:text="Width:"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/width"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="90dp"
+            android:background="#ffff"
+            android:gravity="center"
+            android:textColor="#736D6D"
+            android:hint="widht"
+            android:fontFamily="@font/arlrndfont"
+            android:inputType="numberDecimal"
+            android:textSize="25sp"/>
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/custombutton"
+        android:fontFamily="@font/arlrndfont"
+        android:textColor="#272e27"
+        android:id="@+id/btnres"
+        android:layout_width="157dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30sp"
+        android:text="@string/result"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Area = ?"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/arlrndfont"
+        android:textColor="#ffff"
+        android:layout_marginTop="30dp">
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/custombutton"
+        android:fontFamily="@font/arlrndfont"
+        android:textColor="#272e27"
+        android:id="@+id/btnreset"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:text="@string/reset"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/custombutton"
+        android:fontFamily="@font/arlrndfont"
+        android:textColor="#272e27"
+        android:id="@+id/btnback"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:text="Back"
+        android:textSize="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+        />
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background2_style"
+    tools:context=".Square">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculation Square"
+        android:textColor="#ffff"
+        android:layout_marginBottom="30dp"
+        android:textSize="35sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Length:"
+            android:textSize="30sp"
+            android:textColor="#ffff"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/diagonal"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:inputType="numberDecimal"
+            android:background="#ffff"
+            android:textColor="#736D6D"
+            android:fontFamily="@font/arlrndfont"
+            android:textSize="25sp"
+            android:hint="length"
+            android:gravity="center"
+            android:layout_marginLeft="80dp"
+            >
+
+        </EditText>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnres"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#1E7C93"
+        android:fontFamily="@font/arlrndfont"
+        android:text="@string/result"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </Button>
+
+
+
+
+    <TextView
+        android:id="@+id/area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Area = ?"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:layout_marginTop="30dp"
+        >
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#1E7C93"
+        android:fontFamily="@font/arlrndfont"
+        android:textColor="#FFFFFF"
+        android:text="@string/reset"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30sp"
+        />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:text="Back"
+        android:backgroundTint="#1BD1D1"
+        android:textSize="20dp"
+        android:fontFamily="@font/arlrndfont"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="40dp"
+        />
+
+
+
+
+</LinearLayout>
+
+

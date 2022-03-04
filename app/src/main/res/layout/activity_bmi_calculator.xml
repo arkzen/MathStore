@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/button_style"
+    tools:context=".BmiCalculator">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        android:textColor="#ffff"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/arlrndfont"
+        android:textSize="40sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Weight"
+            android:fontFamily="@font/arlrndfont"
+            android:textSize="30sp"
+            android:textColor="#ffff"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="95dp"
+            android:layout_height="55dp"
+            android:inputType="numberDecimal"
+            android:background="#ffff"
+            android:textColor="#736D6D"
+            android:textSize="25sp"
+            android:hint="KG"
+
+            android:fontFamily="@font/arlrndfont"
+            android:gravity="center"
+            android:layout_marginLeft="80dp"
+            >
+
+        </EditText>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Height"
+            android:fontFamily="@font/arlrndfont"
+            android:textSize="30sp"
+            android:textColor="#ffff"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="95dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="80dp"
+            android:background="#ffff"
+            android:gravity="center"
+            android:hint="CM"
+            android:textColor="#736D6D"
+            android:fontFamily="@font/arlrndfont"
+            android:inputType="numberDecimal"
+            android:textSize="25sp">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnres"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#C44C4C"
+        android:fontFamily="@font/arlrndfont"
+        android:text="@string/result"
+        android:textColor="#E9B7B3"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </Button>
+
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Detail"
+        android:fontFamily="@font/arlrndfont"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#e9b7b3"
+        android:layout_marginTop="30dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/bmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="BMI = ?"
+        android:fontFamily="@font/arlrndfont"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:layout_marginTop="30dp"
+        >
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#C44C4C"
+        android:text="@string/reset"
+        android:fontFamily="@font/arlrndfont"
+        android:textColor="#E9B7B3"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30sp"
+       />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="130dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/arlrndfont"
+        android:backgroundTint="#C44C4C"
+        android:textColor="#E9B7B3"
+        android:text="Back"
+        android:textSize="25dp" />
+
+
+
+
+</LinearLayout>
+
+

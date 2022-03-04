@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/button_style"
+    tools:context=".Calculator">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Calculator Menu"
+        android:fontFamily="@font/arlrndfont"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button1"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mainbutton_style"
+        android:text="Scientific Calculator"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="50dp"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mainbutton_style"
+        android:text="BMI Calculator"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mainbutton_style"
+        android:text="Percentage Calculator"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mainbutton_style"
+        android:text="Cgpa Calculator"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button5"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mainbutton_style"
+        android:text="back to home"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginTop="70dp"
+        />
+
+
+
+
+</LinearLayout>

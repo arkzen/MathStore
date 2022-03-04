@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Physicsformula"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#00BFFF"
+        android:text="Physics Formula"
+        android:textSize="35dp"
+        android:textColor="#000"
+        android:gravity="center"
+        />
+
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="Back"
+        android:backgroundTint="#00BFFF"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"
+
+        />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/physics_formula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/physics_formula"
+            android:textSize="25dp"
+            android:background="#00BFFF"
+            android:textColor="#000"
+            />
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
