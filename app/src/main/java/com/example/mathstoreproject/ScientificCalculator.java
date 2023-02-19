@@ -20,8 +20,7 @@ public class ScientificCalculator extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scientific_calculator);

@@ -91,5 +91,10 @@
 
 
     </string>
+    <string name="welcome_to_mathstore">Welcome to\nMathstore</string>
+    <string name="des_formula">We provides users a valuable resource for quickly accessing a wide range of formulas from different areas of mathematics and physics.</string>
+    <string name="des_calculators">With options for a Mathematical calculator, BMI and percentage calculator, you can access a range of useful tools all in one place.</string>
+    <string name="formula">Formula</string>
+    <string name="calculators">Calculators</string>
 
 </resources>

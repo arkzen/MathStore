@@ -21,8 +21,7 @@ public class Circle extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_circle);

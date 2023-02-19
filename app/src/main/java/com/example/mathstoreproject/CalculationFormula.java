@@ -17,8 +17,6 @@ public class CalculationFormula extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculation_formula);
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
 
         btn1 = findViewById(R.id.button1);
 
