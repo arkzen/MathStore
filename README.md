@@ -1,4 +1,6 @@
 # MathStore
+[Try on Google PLay](https://play.google.com/store/apps/details?id=darkzen.studios.mathstoreproject)
+
 <img src="https://i.imgur.com/Akf5vA4.jpg" width="120"> <img src="https://i.imgur.com/uNEtEbM.jpg" width="120"> <img src="https://i.imgur.com/GvB6skW.jpg" width="120"> 
 <img src="https://i.imgur.com/eDicCMP.jpg" width="120"> <img src="https://i.imgur.com/CntyrLL.jpg" width="120"> <img src="https://i.imgur.com/X5cNUWp.jpg" width="120">
 <img src="https://i.imgur.com/LTGsj5i.jpg" width="120"> <img src="https://i.imgur.com/uYK0YhF.jpg" width="120"> <img src="https://i.imgur.com/7Bsszk0.jpg" width="120">
