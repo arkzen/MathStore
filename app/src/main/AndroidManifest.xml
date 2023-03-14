@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mathstoreproject">
-
+    package="darkzen.studios.mathstoreproject">
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,31 +8,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MathstoreProject">
-        <activity android:name=".Mathformula"></activity>
-        <activity android:name=".Physicsformula" />
-        <activity android:name=".Square" />
-        <activity android:name=".Circle" />
-        <activity android:name=".Rectangle" />
-        <activity android:name=".TriangleA" />
-        <activity android:name=".CalculationFormula" />
-        <activity android:name=".Semester8" />
-        <activity android:name=".Semester7" />
-        <activity android:name=".Semester6" />
-        <activity android:name=".Semester5" />
-        <activity android:name=".Semester4" />
-        <activity android:name=".Semester3" />
-        <activity android:name=".Semester2" />
-        <activity android:name=".Semester1" />
-        <activity android:name=".Cgpacalculator" />
-        <activity android:name=".ScientificCalculator" />
-        <activity android:name=".PercentageCalculator" />
-        <activity android:name=".BmiCalculator" />
-        <activity android:name=".Formula" />
-        <activity android:name=".Calculator" />
-        <activity android:name=".MainActivity">
+        <activity android:name="darkzen.studios.mathstoreproject.Square" />
+        <activity android:name="darkzen.studios.mathstoreproject.Circle" />
+        <activity android:name="darkzen.studios.mathstoreproject.Rectangle" />
+        <activity android:name="darkzen.studios.mathstoreproject.TriangleA" />
+        <activity android:name="darkzen.studios.mathstoreproject.CalculationFormula" />
+        <activity android:name="darkzen.studios.mathstoreproject.ScientificCalculator" />
+        <activity android:name="darkzen.studios.mathstoreproject.PercentageCalculator" />
+        <activity android:name="darkzen.studios.mathstoreproject.BmiCalculator" />
+        <activity android:name="darkzen.studios.mathstoreproject.Calculator" />
+        <activity android:name="darkzen.studios.mathstoreproject.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

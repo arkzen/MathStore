@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/button_style"
+    android:background="@color/cod_gray"
     tools:context=".BmiCalculator">
 
 
@@ -16,7 +16,7 @@
         android:text="BMI Calculator"
         android:textColor="#ffff"
         android:layout_marginBottom="25dp"
-        android:fontFamily="@font/arlrndfont"
+        android:fontFamily="@font/lato_regular"
         android:textSize="40sp"
         android:textStyle="bold">
 
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
 
             android:text="Weight"
-            android:fontFamily="@font/arlrndfont"
+            android:fontFamily="@font/lato_regular"
             android:textSize="30sp"
             android:textColor="#ffff"
             >
@@ -50,8 +50,7 @@
             android:textColor="#736D6D"
             android:textSize="25sp"
             android:hint="KG"
-
-            android:fontFamily="@font/arlrndfont"
+            android:fontFamily="@font/lato_regular"
             android:gravity="center"
             android:layout_marginLeft="80dp"
             >
@@ -74,9 +73,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:text="Height"
-            android:fontFamily="@font/arlrndfont"
+            android:fontFamily="@font/lato_regular"
             android:textSize="30sp"
             android:textColor="#ffff"
             >
@@ -92,7 +90,7 @@
             android:gravity="center"
             android:hint="CM"
             android:textColor="#736D6D"
-            android:fontFamily="@font/arlrndfont"
+            android:fontFamily="@font/lato_regular"
             android:inputType="numberDecimal"
             android:textSize="25sp">
 
@@ -103,15 +101,15 @@
 
     <Button
         android:id="@+id/btnres"
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:layout_marginTop="5dp"
-        android:backgroundTint="#C44C4C"
-        android:fontFamily="@font/arlrndfont"
-        android:text="@string/result"
-        android:textColor="#E9B7B3"
-        android:textSize="25sp"
-        android:textStyle="bold">
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonwhite"
+        android:fontFamily="@font/lato_regular"
+        android:text="Result"
+        android:textColor="@color/black"
+        android:textSize="25dp">
 
     </Button>
 
@@ -121,10 +119,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Enter Your Detail"
-        android:fontFamily="@font/arlrndfont"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/lato_regular"
         android:textSize="25sp"
         android:textStyle="bold"
-        android:textColor="#e9b7b3"
+        android:textColor="@color/white"
         android:layout_marginTop="30dp"
         >
 
@@ -135,10 +134,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="BMI = ?"
+        android:textColorHint="@color/white"
         android:fontFamily="@font/arlrndfont"
         android:textSize="25sp"
         android:textStyle="bold"
         android:textColor="#ffff"
+        android:backgroundTint="@color/white"
         android:layout_marginTop="30dp"
         >
 
@@ -147,27 +148,28 @@
 
     <Button
         android:id="@+id/btnreset"
-        android:layout_width="140dp"
-        android:layout_height="60dp"
-        android:backgroundTint="#C44C4C"
-        android:text="@string/reset"
-        android:fontFamily="@font/arlrndfont"
-        android:textColor="#E9B7B3"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:layout_marginTop="30sp"
-       />
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonwhite"
+        android:fontFamily="@font/lato_regular"
+        android:text="Reset"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        />
 
     <Button
         android:id="@+id/btnback"
         android:layout_width="130dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/arlrndfont"
-        android:backgroundTint="#C44C4C"
-        android:textColor="#E9B7B3"
-        android:text="Back"
-        android:textSize="25dp" />
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonwhite"
+        android:fontFamily="@font/lato_regular"
+        android:text="back"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
 
 
 

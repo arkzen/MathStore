@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/button_style"
+    android:background="@color/black"
     tools:context=".CalculationFormula">
 
     <TextView
@@ -13,21 +13,21 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
-        android:text="Additional Features Menu "
-        android:fontFamily="@font/arlrndfont"
+        android:text="Additional Features"
+        android:fontFamily="@font/lato_regular"
         android:textColor="#FFFFFF"
         android:textSize="30dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button1"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
+        android:layout_width="276dp"
+        android:layout_height="50dp"
+        android:background="@drawable/teakshape"
+        android:fontFamily="@font/lato_regular"
         android:layout_gravity="center"
-        android:background="@drawable/mainbutton_style"
         android:text="Area of triangle"
         android:textSize="20dp"
         android:textColor="#FFFFFF"
-        android:fontFamily="@font/arlrndfont"
         android:layout_marginTop="40dp"
         />
 
@@ -35,41 +35,41 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
+        android:layout_width="276dp"
+        android:layout_height="50dp"
+        android:background="@drawable/teakshape"
+        android:fontFamily="@font/lato_regular"
         android:layout_gravity="center"
-        android:background="@drawable/mainbutton_style"
         android:text="Area of Ractangle"
         android:textSize="20dp"
         android:textColor="#FFFFFF"
-        android:fontFamily="@font/arlrndfont"
         android:layout_marginTop="20dp"
         />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button3"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
+        android:layout_width="276dp"
+        android:layout_height="50dp"
+        android:background="@drawable/teakshape"
+        android:fontFamily="@font/lato_regular"
         android:layout_gravity="center"
         android:textColor="#FFFFFF"
-        android:background="@drawable/mainbutton_style"
         android:text="Area of circle"
         android:textSize="20dp"
-        android:fontFamily="@font/arlrndfont"
         android:layout_marginTop="20dp"
         />
 
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button4"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
+        android:layout_width="276dp"
+        android:layout_height="50dp"
+        android:background="@drawable/teakshape"
+        android:fontFamily="@font/lato_regular"
         android:layout_gravity="center"
         android:textColor="#FFFFFF"
-        android:background="@drawable/mainbutton_style"
         android:text="Area of Squire"
         android:textSize="20dp"
-        android:fontFamily="@font/arlrndfont"
         android:layout_marginTop="20dp"
         />
 
@@ -77,13 +77,13 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button5"
         android:layout_width="130dp"
-        android:layout_height="65dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="#C44C4C"
-        android:fontFamily="@font/arlrndfont"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonwhite"
+        android:fontFamily="@font/lato_regular"
         android:text="Back"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/black"
         android:textSize="25dp" />
 
 

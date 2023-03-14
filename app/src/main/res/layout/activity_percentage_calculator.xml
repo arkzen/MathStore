@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/button_style"
-
+    android:background="@color/teak"
     tools:context=".PercentageCalculator">
 
 
